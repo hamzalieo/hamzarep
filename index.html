@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body >
+  <!---start navigator--->
+    <nav class="navbar navbar-expand-lg navbar-danger bg-danger">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">THEATER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Feed Back</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">FAQS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li class="nav-item"><a class="nav-link text-white" href="#">English</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#">Hindi</a></li>
+                  <li class="nav-item"><a class="nav-link text-white" href="#">Urdu</a></li>
+                </ul>
+              </li>
+           
+            </ul>
+          
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+
+          </div>
+       
+        </div>
+      </nav>
+      <!---end of navigator--->
+           <!-- Start of Slider -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="download (1).jfif" class="d-block w-100"  height="600" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="download.jfif" class="d-block w-100"  height="600" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="download (2).jfif" class="d-block w-100" height="600"  alt="...">
+        </div>
+      </div>class="card"
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  <!-- End of slider  -->
+        <!--Up Coming Shows--->
+        <h1 class="h1 text-center text-white m-4">Up Coming Shows</h1> <hr class="bg-warning">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="emage.jfif" class="d-block w-100" style="width: 100%; height: 250px; object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+              <img src="gilroy.jfif" class="d-block w-100" style="width: 100%; height: 250px; object-fit: contain;">
+            </div>
+            <div class="carousel-item">
+              <img src="intime.jfif" class="d-block w-100" style="width: 100%; height: 250px; object-fit: contain;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+            <!--End of Coming Shows-->
+            <!--Starts Of Theatre Events--> 
+            <!--Starts Of Urdu Events-->
+        <div class="container">
+          <h1 class="h1 text-center text-white m-4">Theater Events</h1> <hr class="bg-warning">
+          <div class="row">
+            <h2 class="h2 text-center text-white m-4">Urdu Theater</h2> 
+            
+            <div class="col-sm-6 col-md-4 col-lg-3 m-4">
+              <div class="card" style="width: 20rem;">
+                <img src="events urdu.jfif" class="card-img-top" >
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">I its remarkable century-long history traversing the colonial and nationalist eras, the Parsi theater was unique as a site of communal harmony.
+                    The Parsi theater began in Bombay in the early s and fanned out
+                    across South and Southeast Asia by the s. During the twentieth century, major Parsi theatrical companies flourished in Lahore, Delhi, and
+                    Calcutta, exerting a huge impact on the development of modern drama,
+                    regional music, and the cinema. Parsis, Hindus, Muslims, Anglo-Indians,
+                    and Baghdadi Jews consorted amicably in both residential and traveling
+                    companies. Although company ownership usually remained in Parsi
+                    hands, actors were drawn from many communities, as were professional
+                    writers, musicians, painters, stage hands, and other personnel. As
+                    Såmn≥t^ Gupta makes clear, it was
+                    Parsis, non-Parsis, Hindus, Muslims, and Christians who spread the art of
+                    theatre by founding theatrical companies, who built playhouses and
+                    encouraged drama, who became actors and popularized the art of acting,
+                    who composed innumerable dramas in Gujarati, Hindi, and Urdu, who
+                    composed songs and defended classical music, and who wrote descriptions
+                    of the Parsi stage and related matters.1
+                    Audiences similarly were heterogeneous, comprised of diverse religious, ethnic, and linguistic groups and representing a wide range of class
+                     </p>
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    See Detail
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 m-4">
+              <div class="card" style="width: 20rem;">
+                <img src="urduevents2.jfif" class="card-img-top" >
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">and based on European opera.5 After the fall of Awadh, the Indar Sab^≥
+                    arrived in Bombay and was taken up by Parsi theatrical companies. The
+                    Parsi contribution is understood in two stages: () the interest of Parsi
+                    schoolboys in dramas on their community’s history, and () the activity of
+                    businessmen to turn theater into a commercial enterprise. A pioneering
+                    figure, Seth Pestan Framji (probably Pestanji Framji Madan), the founder
+                    of the Original Theatrical Company and an Urdu poet himself, receives
+                    prominence in the N≥ªak S≥gar. The early period of playwriting and
+                    performance in Gujarati, however, is completely overlooked.
+                    The subsequent developments in the Parsi theater are organized into
+                    a succession of theater companies and a lineage of playwrights. The founders of the companies, some of their leading actors, and their geographic
+                    locations are briefly mentioned but little is said of specific companies’
+                    innovations. The playwrights discussed are Raunaq, ◊arµf, ∫≥lib, A√san,
+                    B®t≥b, ƒashr, ‘Abdull≥h, B®g, Ma√shar, and some minor figures. A
+                    particular focus of discussion (and one repeatedly observed in the Urdu
+                    sources) is upon language, its evolution in terms of poetry and prose, and
+                    its “misuse,” especially in recent dramas that mix Hindi and Sanskrit
+                    words. Passages are cited at length from various plays to illustrate the
+                    development of a felicitous Urdu idiom. While the authors claim to be
+                    above petty quarrels between Hindi and Urdu, they consider it a mark of
+                    progress that ∫≥lib introduced songs in Urdu instead of the customary
+                    Hindi ones. A√san Lak^navµ’s language is adjudged as pure (p≥kµza).
+                    ƒashr’s decision to challenge B®t≥b on his own ground by writing
+                    mythological plays in Hindi is painted as a huge mistake.
+                    The dominant thrust of the treatment is thus to establish the literary
+                    canon of Urdu drama. Beyond a brief mention of costumes and scenery,
+                    very little comment is made upon staging. The authors show little interest
+                    in or awareness of the English influence upon the Parsi theater. They do
+                    not favor the double-stranded plots that were common in the Parsi
+                    theater, because the subplot tended toward bawdy humor. Considering
+                    the immature state of cinema in , it is noteworthy that the authors
+                    vehemently oppose its influence on the theater; cinema is viewed as sensationalistic, immoral, and a direct threat to the stage.
+                    Ram Babu Saksena’s A History of Urdu Literature, first published in
+                    , is heavily indebted to Il≥hµ and ‘Umar’s compendium, and much of</p>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  See Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>             
+    </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-3 m-4">
+  <div class="card" style="width: 20rem;">
+    <img src="urduevents3.jfif" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">In his four-volume Urd∑ T^®ªar (first three volumes published in
+        , the fourth in ), ‘Abdul ‘Alµm N≥mµ presented a revised version
+        of his doctoral dissertation, which became the first comprehensive history
+        of the Parsi theater in Urdu. His signal effort to incorporate the minutiae
+        of performances, actors, companies, and dramatic literature set a new
+        standard, and his work is the primary reference for later authors. N≥mµ’s
+        sources, listed at the end of volume , include numerous nineteenth-century travelogues, English, Gujarati and Marathi newspapers, administrative papers and diaries of the East India Company, catalogues from the
+        British Museum and Victoria and Albert Museum, books on English and
+        Marathi theater, as well as D^≥njµb^≥’µ Paª®l’s Gujarati history of the Parsi
+        theater (see below), articles from Urdu journals Nav≥-e Adab and ¥jkal,
+        Am≥nat’s Dµv≥n and Ri¤vµ’s Lak^na’u k≥ ‘Av≥mµ Isª®j.
+        Unlike the authors already discussed, N≥mµ is not interested in
+        apologizing for the theater or exercising judgment in the selection of a
+        canon. Rather, an infectious enthusiasm for the subject pervades the
+        work, producing if anything a lack of discrimination and an excess of
+        detail. N≥mµ acquired a substantial collection of playscripts, some through
+        bribery and illicit dealings as he himself confesses, and his study relies
+        upon these texts as well as the oral lore of the theater imbibed with lifelong residence in Bombay. Notwithstanding the advance in methodology
+        represented by the use of such sources, later studies have identified
+        numerous errors in N≥mµ’s history.
+        The organization of the four volumes is as follows: () historical
+        background, typology of dramas; (–) playwrights and their dramas; ()
+        Parsi theatrical companies. Volume  divides the playwrights into the
+        periods –, –, and –, whereas Volume  treats the
+        period –. The periods are constructed somewhat artificially to
+        separate the authors by religious community. Thus in the section devoted
+        to –, N≥mµ lists only Parsi and Hindu dramatists. Early Muslim
+        dramatists like Raunaq, ◊arµf, and ‘Abdull≥h are put in the period
+        –, although records indicate that their plays were published beginning in . The study is the first in Urdu to acknowledge the Parsi contribution to the creation of a dramatic literature, and the early dramas are
+        correctly described as written in Gujarati, or if in Urdu, translated from
+        Gujarati. These Gujarati plays, however, are still assimilated under the
+        rubric “Urdu theater.” N≥mµ’s treatment includes information about who
+        commissioned the play, the date, the company that performed it, the cast,
+        and often a summary of the plot.
+        In the fourth volume, N≥mµ places Urdu drama within a complex</p>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  See Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+      <!--Starts Of Hindi Events-->
+      <div class="container">
+        <h1 class="h1 text-center text-white m-4">Theater Events</h1> <hr class="bg-warning">
+        <div class="row">
+          <h2 class="h2 text-center text-white m-4">Hindi Theater</h2> 
+          
+          <div class="col-sm-6 col-md-4 col-lg-3 m-4">
+            <div class="card" style="width: 20rem;">
+              <img src="hindi events.jfif" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">miracle play, also called Saint’s Play, one of three principal kinds of vernacular drama of the European Middle Ages (along with the mystery play and the morality play). A miracle play presents a real or fictitious account of the life, miracles, or martyrdom of a saint. The genre evolved from liturgical offices developed during the 10th and 11th centuries to enhance calendar festivals. By the 13th century they had become vernacularized and filled with unecclesiastical elements. They had been divorced from church services and were performed at public festivals. Almost all surviving miracle plays concern either the Virgin Mary or St. Nicholas, the 4th-century bishop of Myra in Asia Minor. Both Mary and Nicholas had active cults during the Middle Ages, and belief in the healing powers of saintly relics was widespread. In this climate, miracle plays flourished.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  See Detail
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 m-4">
+            <div class="card" style="width: 20rem;">
+              <img src="hindi events2.jfif" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">miracle play, also called Saint’s Play, one of three principal kinds of vernacular drama of the European Middle Ages (along with the mystery play and the morality play). A miracle play presents a real or fictitious account of the life, miracles, or martyrdom of a saint. The genre evolved from liturgical offices developed during the 10th and 11th centuries to enhance calendar festivals. By the 13th century they had become vernacularized and filled with unecclesiastical elements. They had been divorced from church services and were performed at public festivals. Almost all surviving miracle plays concern either the Virgin Mary or St. Nicholas, the 4th-century bishop of Myra in Asia Minor. Both Mary and Nicholas had active cults during the Middle Ages, and belief in the healing powers of saintly relics was widespread. In this climate, miracle plays flourished.</p>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+See Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>             
+  </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-3 m-4">
+<div class="card" style="width: 20rem;">
+  <img src="hindi events3.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">miracle play, also called Saint’s Play, one of three principal kinds of vernacular drama of the European Middle Ages (along with the mystery play and the morality play). A miracle play presents a real or fictitious account of the life, miracles, or martyrdom of a saint. The genre evolved from liturgical offices developed during the 10th and 11th centuries to enhance calendar festivals. By the 13th century they had become vernacularized and filled with unecclesiastical elements. They had been divorced from church services and were performed at public festivals. Almost all surviving miracle plays concern either the Virgin Mary or St. Nicholas, the 4th-century bishop of Myra in Asia Minor. Both Mary and Nicholas had active cults during the Middle Ages, and belief in the healing powers of saintly relics was widespread. In this climate, miracle plays flourished.</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+See Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+      <!--Starts Of English Events-->
+      <div class="container">
+        <h1 class="h1 text-center text-white m-4">Theater Events</h1> <hr class="bg-warning">
+        <div class="row">
+          <h2 class="h2 text-center text-white m-4">English Theater</h2> 
+          
+          <div class="col-sm-6 col-md-4 col-lg-3 m-4">
+            <div class="card" style="width: 20rem;">
+              <img src="englishevents.jfif" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">In the religious festivals of ancient Greece, singing, dancing and acting in the honour of the gods led to the birth of the first theatre. The first plays were based on stories from the Bible, as the years went. by plays began to reflect all forms of life. The most famous writer of plays was William Shakespeare. He was born in England and wrote about 35 plays which included tragedies and comedies. Drama is performed inside theatres which have a stage and a large seating area. Between the stage and the audience there is an Orchestra. There are screens at the back of the stage which provide the necessary backdrop for the scene. Actors dress up in make up rooms and perform their roles on the stage.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  See Detail
+                </button>
+                
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 m-4">
+            <div class="card" style="width: 20rem;">
+              <img src="englishevents2.jfif" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">In the religious festivals of ancient Greece, singing, dancing and acting in the honour of the gods led to the birth of the first theatre. The first plays were based on stories from the Bible, as the years went. by plays began to reflect all forms of life. The most famous writer of plays was William Shakespeare. He was born in England and wrote about 35 plays which included tragedies and comedies. Drama is performed inside theatres which have a stage and a large seating area. Between the stage and the audience there is an Orchestra. There are screens at the back of the stage which provide the necessary backdrop for the scene. Actors dress up in make up rooms and perform their roles on the stage.</p>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+See Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>             
+  </div>
+</div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-3 m-4">
+<div class="card" style="width: 20rem;">
+  <img src="englishevents3.jfif" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">In the religious festivals of ancient Greece, singing, dancing and acting in the honour of the gods led to the birth of the first theatre. The first plays were based on stories from the Bible, as the years went. by plays began to reflect all forms of life. The most famous writer of plays was William Shakespeare. He was born in England and wrote about 35 plays which included tragedies and comedies. Drama is performed inside theatres which have a stage and a large seating area. Between the stage and the audience there is an Orchestra. There are screens at the back of the stage which provide the necessary backdrop for the scene. Actors dress up in make up rooms and perform their roles on the stage.</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+See Details
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      ...
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Save changes</button>
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+<!-- Footer -->
+<div class="container-fluid text-white">
+    <div class="row">
+        <div class="col-3">
+            <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Contact Us</li>
+            <li><a href=""></a>FeedBack</li>
+            <li><a href=""></a>FAQS</li>
+            <li><a href=""></a>Events</li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </ul>
+        </div>
+        <div class="col-3">
+            <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Contact Us</li>
+            <li><a href=""></a>FeedBack</li>
+            <li><a href=""></a>FAQS</li>
+            <li><a href=""></a>Events</li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </ul>
+        </div>
+        <div class="col-3">
+            <ul>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Contact Us</li>
+            <li><a href=""></a>FeedBack</li>
+            <li><a href=""></a>FAQS</li>
+            <li><a href=""></a>Events</li>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </ul>
+        </div>       
+    </div>
+    <footer class="footer text-center text-white">&copy; All Rights Reserved By Hamza And Jawwad</footer>
+</div>    
+     <!-- Footer -->
+                  <!--End Of Theatre-->
+</body>
+</html>
